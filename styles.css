@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: #f7f5f0;
+  background: #c9c3b6;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -69,9 +69,9 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 30%;
   border: 4px solid #f7f5f0;
-  transition: all 0.5s;
+  transition: all 0.1s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(180deg);
@@ -79,7 +79,7 @@ header .profile-image:hover {
 .tag {
   background-color: transparent;
   color: #f7f5f0;
-  padding: 1px;
+  padding: 1px 5px;
   border-radius: 5px;
   display: table;
   margin: auto;
@@ -217,17 +217,18 @@ p {
   color: rgb(148, 148, 148);
   text-align: justify;
 }
+br {
+}
 .cardfull {
-  margin: 30px;
+  margin: 80px 30px;
   padding: 20px 40px 40px;
-  max-width: 1150px;
+  max-width: 500px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-right: 4px solid #ccc;
   border-radius: 6px;
   transition: all 0.5s;
-}
 }
 .portfolio {
   text-align: left;
