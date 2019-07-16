@@ -230,13 +230,16 @@ br {
   border-radius: 6px;
   transition: all 0.5s;
 }
+.cardfull:hover {
+  border-color: gray;
+}
 .portfolio {
   text-align: left;
   color: #999;
   margin-left: 1.66%;
   margin-bottom: 0%;
 }
-div {
+section {
   padding-top: 60px;
 }
 .images {
